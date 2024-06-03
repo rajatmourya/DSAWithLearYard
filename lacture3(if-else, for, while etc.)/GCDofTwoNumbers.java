@@ -2,26 +2,31 @@ package Lacture3;
 
 import java.util.Scanner;
 import java.lang.Math;
+import java.util.Stack;
 
 public class GCDofTwoNumbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the first number : ");
-        int a = sc.nextInt();
-        System.out.println("Enter the first number : ");
-        int b = sc.nextInt();
-        System.out.println(gcd(a,b));
-        System.out.println(bootgcd(a,b));
-    }
-    public static int gcd(int a, int b) {
-        int result = 1;
-        for (int i = Math.min(a, b); i > 1 ; i--) {
-            if(b % i == 0){
-                result = i;
-                break;
-            }
+        System.out.println("How many time you want to iterate : ");
+        int t = sc.nextInt();
+        while (t-- > 0){
+            System.out.println("Enter the first number : ");
+            int a = sc.nextInt();
+            System.out.println("Enter the Second number : ");
+            int b = sc.nextInt();
+            System.out.println(bootgcd(a,b));
+            System.out.println(euclidGcd(a,b));
         }
-        return result;
+
+
+    }
+
+    public static int euclidGcd(int a, int b){
+//        if (b==0) return a;
+//        return euclidGcd(b,a%b);
+
+        return a % b == 0 ? b : euclidGcd(b,a%b);
+
     }
 
     public static int bootgcd(int a, int b) {
@@ -35,6 +40,5 @@ public class GCDofTwoNumbers {
         }
         return a;
     }
-
 
 }
