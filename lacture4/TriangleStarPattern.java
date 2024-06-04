@@ -11,6 +11,8 @@ public class TriangleStarPattern {
 //        rightTriangleStarPattern(n);
 //        hollowRightTriangleStarPattern(n);
 //        mirroredRightTriangleStarPattern(n);
+//        invertedRightTriangleStarPattern(n);
+        hollowInvertedRightTriangleStarPattern(n);
 
 
 
@@ -50,6 +52,28 @@ public class TriangleStarPattern {
             System.out.println();
         }
     }
+
+    public static void invertedRightTriangleStarPattern(int n) {
+        for (int i = 0; i < n; i++) {
+            for (int j = n-1-i; j >= 0; j--) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void  hollowInvertedRightTriangleStarPattern(int n) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print(" ");
+            }
+            for (int j = n-1-i; j >= 0; j--) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
 
 
 }
