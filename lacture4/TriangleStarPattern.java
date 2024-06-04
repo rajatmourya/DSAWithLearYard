@@ -6,12 +6,12 @@ public class TriangleStarPattern {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Number of Rows: ");
-//        int n = sc.nextInt();
-        int n = 5;
-//        rightTriangleStarPattern(n);
-//        hollowRightTriangleStarPattern(n);
-//        mirroredRightTriangleStarPattern(n);
-//        invertedRightTriangleStarPattern(n);
+        int n = sc.nextInt();
+//        int n = 5;
+        rightTriangleStarPattern(n);
+        hollowRightTriangleStarPattern(n);
+        mirroredRightTriangleStarPattern(n);
+        invertedRightTriangleStarPattern(n);
         hollowInvertedRightTriangleStarPattern(n);
 
 

@@ -6,11 +6,11 @@ public class pyramidStarPattern {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Number of Rows: ");
-//        int n = sc.nextInt();
-        int n = 5;
-//        pyramidStarPattern(n);
-//        hollowPyramidStarPattern(n);
-//        invertedPyramidStarPattern(n);
+        int n = sc.nextInt();
+//        int n = 5;
+        pyramidStarPattern(n);
+        hollowPyramidStarPattern(n);
+        invertedPyramidStarPattern(n);
         hollowInvertedPyramidStarPattern(n);
 
     }
