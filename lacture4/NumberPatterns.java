@@ -10,13 +10,22 @@ public class NumberPatterns {
 //        int cols = sc.nextInt();
         int rows = 6;
         int cols = 5;
-//        NumberPatterns1.squareNumberPatternsP1(rows,cols);
-//        NumberPatterns1.squareNumberPatternsP2(rows,cols);
-//        NumberPatterns1.squareNumberPatternsP3(rows,rows);
-//        NumberPatterns1.squareNumberPatternsP4(5,5);
-//        NumberPatterns1.squareNumberPatternsP5(5,5);
-//        NumberPatterns1.squareNumberPatternsP6(5,5);
+        NumberPatterns1.squareNumberPatternsP1(rows,cols);
+        NumberPatterns1.squareNumberPatternsP2(rows,cols);
+        NumberPatterns1.squareNumberPatternsP3(rows,rows);
+        NumberPatterns1.squareNumberPatternsP4(5,5);
+        NumberPatterns1.squareNumberPatternsP5(5,5);
+        NumberPatterns1.squareNumberPatternsP6(5,5);
         NumberPatterns1.squareNumberPatternsP7(5,5);
+
+//                                  Number Patterns 2
+
+        NumberPatterns2.numericSquarePatternsP1(5,5);
+        NumberPatterns2.numericSquarePatternsP2(5,5);
+        NumberPatterns2.numericSquarePatternsP3(5,5);
+        NumberPatterns2.numericSquarePatternsP4(5,5);
+        NumberPatterns2.numericSquarePatternsP5(5,5);
+        NumberPatterns2.numericSquarePatternsP6(5,5);
     }
 }
 
