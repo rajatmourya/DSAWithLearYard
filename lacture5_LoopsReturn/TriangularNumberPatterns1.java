@@ -1,4 +1,4 @@
-package lacture4;
+package lacture5_LoopsReturn;
 
 public class TriangularNumberPatterns1 {
 

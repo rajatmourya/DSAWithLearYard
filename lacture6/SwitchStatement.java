@@ -1,4 +1,4 @@
-package lacture4;
+package lacture6;
 
 import java.util.Scanner;
 
