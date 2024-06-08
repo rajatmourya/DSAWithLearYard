@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class PowerOfANumber {
 
 //    Write a java program to find power of a number using for loop.
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the Base: ");
