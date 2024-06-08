@@ -5,27 +5,55 @@ import java.util.Scanner;
 public class NumberPatterns {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the Number of Rows: ");
+//        System.out.println("Enter the Number of Rows: ");
 //        int rows = sc.nextInt();
 //        int cols = sc.nextInt();
         int rows = 6;
         int cols = 5;
-        NumberPatterns1.squareNumberPatternsP1(rows,cols);
-        NumberPatterns1.squareNumberPatternsP2(rows,cols);
-        NumberPatterns1.squareNumberPatternsP3(rows,rows);
-        NumberPatterns1.squareNumberPatternsP4(5,5);
-        NumberPatterns1.squareNumberPatternsP5(5,5);
-        NumberPatterns1.squareNumberPatternsP6(5,5);
-        NumberPatterns1.squareNumberPatternsP7(5,5);
+//        NumberPatterns1.squareNumberPatternsP1(rows,cols);
+//        NumberPatterns1.squareNumberPatternsP2(rows,cols);
+//        NumberPatterns1.squareNumberPatternsP3(rows,rows);
+//        NumberPatterns1.squareNumberPatternsP4(5,5);
+//        NumberPatterns1.squareNumberPatternsP5(5,5);
+//        NumberPatterns1.squareNumberPatternsP6(5,5);
+//        NumberPatterns1.squareNumberPatternsP7(5,5);
 
 //                                  Number Patterns 2
 
-        NumberPatterns2.numericSquarePatternsP1(5,5);
-        NumberPatterns2.numericSquarePatternsP2(5,5);
-        NumberPatterns2.numericSquarePatternsP3(5,5);
-        NumberPatterns2.numericSquarePatternsP4(5,5);
-        NumberPatterns2.numericSquarePatternsP5(5,5);
-        NumberPatterns2.numericSquarePatternsP6(5,5);
+//        NumberPatterns2.numericSquarePatternsP1(5,5);
+//        NumberPatterns2.numericSquarePatternsP2(5,5);
+//        NumberPatterns2.numericSquarePatternsP3(5,5);
+//        NumberPatterns2.numericSquarePatternsP4(5,5);
+//        NumberPatterns2.numericSquarePatternsP5(5,5);
+//        NumberPatterns2.numericSquarePatternsP6(5,5);
+
+        //                                  Triangular Number Patterns 1
+
+//        int n = sc.nextInt();
+        int n = 5;
+
+//        TriangularNumberPatterns1.TriangularNumberPatterns1P1(n);
+//        TriangularNumberPatterns1.TriangularNumberPatterns1P2(n);
+//        TriangularNumberPatterns1.TriangularNumberPatterns1P3(n);
+//        TriangularNumberPatterns1.TriangularNumberPatterns1P4(n);
+//        TriangularNumberPatterns1.TriangularNumberPatterns1P4_2(n);
+//        TriangularNumberPatterns1.TriangularNumberPatterns1P5(n);
+//        TriangularNumberPatterns1.TriangularNumberPatterns1P5_2(n);
+
+//                                          Triangular Number Patterns 2
+//        TriangularNumberPatterns2.TriangularNumberPatterns2P1(n);
+//        TriangularNumberPatterns2.TriangularNumberPatterns2P1_2(n);
+//        TriangularNumberPatterns2.TriangularNumberPatterns2P2(n);
+//        TriangularNumberPatterns2.TriangularNumberPatterns2P2_2(n);
+//        TriangularNumberPatterns2.TriangularNumberPatterns2P3(n);
+//        TriangularNumberPatterns2.TriangularNumberPatterns2P3_2(n);
+//        TriangularNumberPatterns2.TriangularNumberPatterns2P4(n);
+//        TriangularNumberPatterns2.TriangularNumberPatterns2P4_2(n);
+//        TriangularNumberPatterns2.TriangularNumberPatterns2P5(n);
+        TriangularNumberPatterns2.TriangularNumberPatterns2P5_2(n);
+
+
+
     }
 }
 
