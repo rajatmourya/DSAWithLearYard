@@ -3,6 +3,9 @@ package Lacture2;
 import java.util.Scanner;
 
 public class MinimumNumberOfNotes {
+
+//    Write a Java program to input amount from user and print minimum number of notes (Rs. 500, 100, 50, 20, 10, 5, 2, 1) required for the amount.
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the amount: ");
