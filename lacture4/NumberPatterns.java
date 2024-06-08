@@ -50,7 +50,13 @@ public class NumberPatterns {
 //        TriangularNumberPatterns2.TriangularNumberPatterns2P4(n);
 //        TriangularNumberPatterns2.TriangularNumberPatterns2P4_2(n);
 //        TriangularNumberPatterns2.TriangularNumberPatterns2P5(n);
-        TriangularNumberPatterns2.TriangularNumberPatterns2P5_2(n);
+//        TriangularNumberPatterns2.TriangularNumberPatterns2P5_2(n);
+
+//                                          Triangular Number Patterns 3
+//        TriangularNumberPatterns3.TriangularNumberPatterns3P1(n);
+//        TriangularNumberPatterns3.TriangularNumberPatterns3P2(n);
+//        TriangularNumberPatterns3.TriangularNumberPatterns3P3(n);
+        TriangularNumberPatterns3.TriangularNumberPatterns3P4(n);
 
 
 
