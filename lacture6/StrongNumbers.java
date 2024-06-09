@@ -1,5 +1,8 @@
 package lacture6;
 
+import lacture7.ArrayDisplay;
+
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class StrongNumbers {
@@ -13,7 +16,14 @@ public class StrongNumbers {
         int start = 1;
         System.out.println("Range end: ");
         int stop = sc.nextInt();
+        int ans[] = strong(start,stop);
+        ArrayDisplay.Display.display(ans);
+    }
 
+    public static int[] strong(int start, int stop){
+        int ar= 0;
+        int arr[] = new int[50];
+        Arrays.fill(arr,0);
         for (int i = start; i <= stop; i++) {
             int strongNumber = 0;
             int temp = i;
@@ -24,9 +34,11 @@ public class StrongNumbers {
 //                System.out.println(temp);
             }
             if (strongNumber == i){
-                System.out.print(strongNumber + " ");
+                arr[ar] = i;
+                ar +=1;
             }
         }
+        return arr;
     }
 
 
