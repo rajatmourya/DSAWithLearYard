@@ -11,5 +11,7 @@ public class ArrayDisplay {
                 System.out.print(arr[i] + " ");
             }
         }
+
+
     }
 }
