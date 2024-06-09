@@ -13,10 +13,15 @@ public class ArmstrongNumber {
     static String armstrongNumber(int n){
         int sum = 0;
         int temp = n;
+        int power = 0;
+        while(temp!=0){
+            temp /= 10;
+            power++;
+        }
+        temp = n;
         while(temp > 0){
             int digit = temp % 10;
-            System.out.println(digit);
-            sum += Math.pow(digit,3);
+            sum += Math.pow(digit,power);
             temp /= 10;
         }
         System.out.println(sum);
