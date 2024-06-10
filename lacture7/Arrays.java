@@ -13,6 +13,16 @@ public class Arrays {
         return arr;
     }
 
+    public static long[] getArray(long n){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the element of the Array: ");
+        long[] arr = new long[Math.toIntExact(n)];
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+        return arr;
+    }
+
     public static int[][] getArray(int n, int m){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the element of the Array: ");
@@ -26,11 +36,14 @@ public class Arrays {
     }
 
     public static void  display(int[] arr){
-        for (int i = 0; i < arr.length; i++) {
-            if(arr[i]==0 && arr[i+1]==0){
-                break;
-            }
-            System.out.print(arr[i] + " ");
+        for(int e: arr){
+            System.out.print(e + " ");
+        }
+    }
+
+    public static void  display(long[] arr){
+        for(long e: arr){
+            System.out.print(e + " ");
         }
     }
 
