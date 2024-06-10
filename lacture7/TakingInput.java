@@ -19,12 +19,12 @@ public class TakingInput {
 
         // Array to String
 
-        System.out.println(Arrays.toString(arr));
+//        System.out.println(Arrays.toString(arr));
 
          // Sort the Array
 
-         Arrays.sort(arr);
-         System.out.println(Arrays.toString(arr));
+//         Arrays.sort(arr);
+//         System.out.println(Arrays.toString(arr));
 
          // 
 
