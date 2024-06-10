@@ -39,6 +39,7 @@ public class Arrays {
         for(int e: arr){
             System.out.print(e + " ");
         }
+        System.out.println();
     }
 
     public static void  display(long[] arr){
