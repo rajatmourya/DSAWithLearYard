@@ -1,6 +1,7 @@
 package lacture7;
 
 import java.util.Scanner;
+import java.util.*;
 
 public class Arrays {
     public static int[] getArray(int n){
@@ -64,6 +65,5 @@ public class Arrays {
         }
         return sum;
     }
-
 
 }

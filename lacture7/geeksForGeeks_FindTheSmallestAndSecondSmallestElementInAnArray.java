@@ -1,6 +1,9 @@
 package lacture7;
 
+import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
+import java.util.*;
 
 public class geeksForGeeks_FindTheSmallestAndSecondSmallestElementInAnArray {
     public static void main(String[] args) {
@@ -10,6 +13,7 @@ public class geeksForGeeks_FindTheSmallestAndSecondSmallestElementInAnArray {
         long arr[] = Arrays.getArray(n);
         long ans[] = minAnd2ndMin(arr,n);
         Arrays.display(ans);
+        System.out.println(java.util.Arrays.toString(minAnd2ndMinWithSorting(arr, n)));
     }
     public static long[] minAnd2ndMin(long a[], long n){
         long smallest = Integer.MAX_VALUE;
@@ -30,4 +34,10 @@ public class geeksForGeeks_FindTheSmallestAndSecondSmallestElementInAnArray {
 //        return ans;
         return new long[] { smallest,secondSmallest};
     }
+
+    public static long[] minAnd2ndMinWithSorting(long a[], long n){
+        java.util.Arrays.sort(a);
+        return new long [] {a[0],a[1]};
+    }
+
 }
