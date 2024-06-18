@@ -10,13 +10,12 @@ public class PrintNumberFrom1ToN {
         print1ToN(1, n);
     }
 
-    static int print1ToN(int s, int n){
+    static void print1ToN(int s, int n){
         if(s == n) {
             System.out.print(n + " ");
-            return 0;
+            return;
         }
         System.out.print(s + " ");
         print1ToN(s+1, n);
-        return 0;
     }
 }
