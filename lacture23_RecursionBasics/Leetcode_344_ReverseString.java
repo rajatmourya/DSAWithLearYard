@@ -9,18 +9,15 @@ public class Leetcode_344_ReverseString {
         int n = sc.nextInt();
         System.out.println("Enter the Character of the Array: ");
         String ss = sc.next();
-        char[] s = new char[n];
-        if (ss.length() == n){
-            s = ss.toCharArray();
-        }
-
-
+        if (ss.length() == n) {
+            char[] s = ss.toCharArray();
 //        char[] s = new char[]{'h', 'e', 'l', 'l', 'o'};
-
-
-        char[] ans = new Solution1().reverseString(s);
-        for(char e: ans){
-            System.out.print(e + " ");
+            char[] ans = new Solution1().reverseString(s);
+            for (char e : ans) {
+                System.out.print(e + " ");
+            }
+        } else {
+            System.out.println("you Entered more then " + n + " Charters");
         }
     }
 }
