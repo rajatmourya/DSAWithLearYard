@@ -12,12 +12,13 @@ class Loops {
 //        System.out.println(printReverseNumber.reverse(num));
 //        System.out.println(qus.palindromeOrNot(num));
 //        System.out.println(qus.powerOfNumber(num,13));
-        int[] fact = qus.factorsOfTheNumber(num);
-        for(int e: fact){
-            if(e != 0){
-                System.out.print(e + " ");
-            }
-        }
+//        int[] fact = qus.factorsOfTheNumber(num);
+//        for(int e: fact){
+//            if(e != 0){
+//                System.out.print(e + " ");
+//            }
+//        }
+        System.out.println(qus.factorial(num));
     }
 }
 
@@ -72,6 +73,14 @@ class Questions1 {
             }
         }
         ans[j] = num;
+        return ans;
+    }
+
+    public int factorial(int num){
+        int ans = 1;
+        for (int i = 1; i <= num; i++) {
+            ans *= i;
+        }
         return ans;
     }
 
