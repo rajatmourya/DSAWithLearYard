@@ -32,13 +32,12 @@ class Loops {
 //                System.out.print(e + " ");
 //            }
 //        }
-        int[] fibonacciSeries = qus2.fibonacciSeries(num);
-        for(int e: fibonacciSeries){
-            System.out.print(e + " ");
-        }
+//        int[] fibonacciSeries = qus2.fibonacciSeries(num);
+//        for(int e: fibonacciSeries){
+//            System.out.print(e + " ");
+//        }
 
-
-
+        qus2.pascalSTriangle(num);
 
     }
 }
@@ -178,6 +177,20 @@ class Questions2 {
             ans[i] = ans[i-1] + ans[i-2];
         }
         return ans;
+    }
+
+    public void pascalSTriangle(int num){
+
+        for (int i = 0; i < num; i++) {
+            for (int j = i; j < num-1; j++) {
+                System.out.print(' ');
+            }
+            for (int j = 0; j <= i; j++) {
+                long value = qus.factorial(i) / (qus.factorial(j) * qus.factorial(i - j));
+                System.out.print(value + " ");
+            }
+            System.out.println();
+        }
     }
 
 
