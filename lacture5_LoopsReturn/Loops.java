@@ -11,7 +11,13 @@ class Loops {
         int num = sc.nextInt();
 //        System.out.println(printReverseNumber.reverse(num));
 //        System.out.println(qus.palindromeOrNot(num));
-        System.out.println(qus.powerOfNumber(num,13));
+//        System.out.println(qus.powerOfNumber(num,13));
+        int[] fact = qus.factorsOfTheNumber(num);
+        for(int e: fact){
+            if(e != 0){
+                System.out.print(e + " ");
+            }
+        }
     }
 }
 
@@ -55,5 +61,19 @@ class Questions1 {
         }
         return ans;
     }
+
+    public int[] factorsOfTheNumber(int num){
+        int j = 0;
+        int[] ans = new int[num/2+1];
+        for (int i = 1; i < num; i++) {
+            if(num%i==0){
+                ans[j] = i;
+                j+=1;
+            }
+        }
+        ans[j] = num;
+        return ans;
+    }
+
 
 }
