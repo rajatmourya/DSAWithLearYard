@@ -8,7 +8,7 @@ class Loops {
         PrintReverseNumber printReverseNumber = new PrintReverseNumber();
         Questions1 qus = new Questions1();
         System.out.println("Enter the Number:");
-        int num = sc.nextInt();
+//        int num = sc.nextInt();
 //        System.out.println(printReverseNumber.reverse(num));
 //        System.out.println(qus.palindromeOrNot(num));
 //        System.out.println(qus.powerOfNumber(num,13));
@@ -18,7 +18,10 @@ class Loops {
 //                System.out.print(e + " ");
 //            }
 //        }
-        System.out.println(qus.factorial(num));
+//        System.out.println(qus.factorial(num));
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        System.out.println(qus.lcm(num1,num2));
     }
 }
 
@@ -82,6 +85,20 @@ class Questions1 {
             ans *= i;
         }
         return ans;
+    }
+
+    public int lcm(int num1, int num2){
+        int max = (num1 > num2) ? num1 : num2;
+        int i = max;
+        int lcm = 1;
+        while (true){
+            if (i % num1 == 0 && i % num2 == 0){
+                lcm = i;
+                break;
+            }
+            i += max;
+        }
+        return lcm;
     }
 
 
