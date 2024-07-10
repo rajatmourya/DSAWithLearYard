@@ -8,7 +8,7 @@ class Loops {
         PrintReverseNumber printReverseNumber = new PrintReverseNumber();
         Questions1 qus = new Questions1();
         System.out.println("Enter the Number:");
-//        int num = sc.nextInt();
+        int num = sc.nextInt();
 //        System.out.println(printReverseNumber.reverse(num));
 //        System.out.println(qus.palindromeOrNot(num));
 //        System.out.println(qus.powerOfNumber(num,13));
@@ -19,9 +19,14 @@ class Loops {
 //            }
 //        }
 //        System.out.println(qus.factorial(num));
-        int num1 = sc.nextInt();
-        int num2 = sc.nextInt();
-        System.out.println(qus.lcm(num1,num2));
+//        int num1 = sc.nextInt();
+//        int num2 = sc.nextInt();
+//        System.out.println(qus.lcm(num1,num2));
+
+        Questions2 qus2 = new Questions2();
+        System.out.println(qus2.armstrongNumber(num));
+
+
     }
 }
 
@@ -102,4 +107,18 @@ class Questions1 {
     }
 
 
+}
+
+class Questions2 {
+
+    public boolean armstrongNumber(int num){
+        int len = Integer.toString(num).length();
+        int n = num;
+        int ans = 0;
+        while (num > 0){
+            ans += Math.pow((num%10),len);
+            num /= 10;
+        }
+        return ans == n ?true:false;
+    }
 }
