@@ -24,8 +24,8 @@ class Loops {
 //        System.out.println(qus.lcm(num1,num2));
 
         Questions2 qus2 = new Questions2();
-        System.out.println(qus2.armstrongNumber(num));
-
+//        System.out.println(qus2.armstrongNumber(num));
+        System.out.println(qus2.perfectNumbers(num));
 
     }
 }
@@ -121,4 +121,18 @@ class Questions2 {
         }
         return ans == n ?true:false;
     }
+
+    public boolean perfectNumbers(int num){
+        int ans = 0;
+        int i = 1;
+        while (i <= num / 2){
+            if(num % i == 0){
+                ans += i;
+            }
+            i += 1;
+        }
+        return ans == num ? true : false;
+    }
+
+
 }
