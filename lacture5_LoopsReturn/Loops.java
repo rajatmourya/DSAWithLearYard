@@ -26,12 +26,20 @@ class Loops {
         Questions2 qus2 = new Questions2();
 //        System.out.println(qus2.armstrongNumber(num));
 //        System.out.println(qus2.perfectNumbers(num));
-        int[] strongNumbers = qus2.strongNumbers(num);
-        for(int e: strongNumbers){
-            if(e != 0){
-                System.out.print(e + " ");
-            }
+//        int[] strongNumbers = qus2.strongNumbers(num);
+//        for(int e: strongNumbers){
+//            if(e != 0){
+//                System.out.print(e + " ");
+//            }
+//        }
+        int[] fibonacciSeries = qus2.fibonacciSeries(num);
+        for(int e: fibonacciSeries){
+            System.out.print(e + " ");
         }
+
+
+
+
     }
 }
 
@@ -158,6 +166,16 @@ class Questions2 {
                 ans[j] = i;
                 j += 1;
             }
+        }
+        return ans;
+    }
+
+    public int[] fibonacciSeries(int num){
+        int[] ans = new int[num];
+        ans[0] = 0;
+        ans[1] = 1;
+        for (int i = 2; i < num; i++) {
+            ans[i] = ans[i-1] + ans[i-2];
         }
         return ans;
     }
