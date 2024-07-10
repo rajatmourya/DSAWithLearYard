@@ -10,7 +10,8 @@ class Loops {
         System.out.println("Enter the Number:");
         int num = sc.nextInt();
 //        System.out.println(printReverseNumber.reverse(num));
-        System.out.println(qus.palindromeOrNot(num));
+//        System.out.println(qus.palindromeOrNot(num));
+        System.out.println(qus.powerOfNumber(num,13));
     }
 }
 
@@ -27,6 +28,7 @@ class PrintReverseNumber{
 }
 
 class Questions1 {
+
     public boolean palindromeOrNot(int num){
         String s= String.valueOf(num);
         int f = 0;
@@ -42,6 +44,15 @@ class Questions1 {
         }
 
         System.out.println(s);
+        return ans;
+    }
+
+    public int powerOfNumber(int num, int pow){
+        int ans = 1;
+        while(pow > 0){
+            ans *= num;
+            pow--;
+        }
         return ans;
     }
 
