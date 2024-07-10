@@ -1,0 +1,472 @@
+[33mcommit a5eb1c4b3cbe65840485f29e3b05c2b65ab0abb9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Mon Jul 1 03:07:42 2024 +0530
+
+    Searcing Number
+
+[33mcommit 783b7ae3f326f5b38ab59783877daa96e142ae4d[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Mon Jul 1 03:07:06 2024 +0530
+
+    Range Sum Query Immutable
+
+[33mcommit 4ff848162fda8ba4ee46fc4aeeff8b3273a2b110[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 23 20:41:18 2024 +0530
+
+    Pow(x, n)
+
+[33mcommit 430093345ce315a393ec2d039b2b4cdf300d69e3[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 23 19:53:15 2024 +0530
+
+    Power Of Three
+
+[33mcommit 391236b9c7806a1ab87eacb92c089fd9b3ddd874[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 23 19:38:04 2024 +0530
+
+    Power Of Two
+
+[33mcommit 97d3fb2e95e162fc827c4cc1002b0668011e3d7d[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Fri Jun 21 00:06:37 2024 +0530
+
+    The Deadly Sin
+
+[33mcommit 7e90cdcaf52cb52c0f6e35c3e3140502cc760c94[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Wed Jun 19 06:51:21 2024 +0530
+
+    Sum of Digit is Pallindrome or not
+
+[33mcommit 5e45ceb27d7d31ea90583daa429b2be3e37f5e49[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Wed Jun 19 06:36:10 2024 +0530
+
+    Palindrome String
+
+[33mcommit 2dde1c5292a6936056dd57ba31f34d290917499f[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Wed Jun 19 04:56:53 2024 +0530
+
+    Leetcode 344 Reverse String
+
+[33mcommit 576d1dbc310383c02eb6cac37732e37249f8592b[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Wed Jun 19 04:01:34 2024 +0530
+
+     LeetCode 326. Power Of Three
+
+[33mcommit 7d5123268c264327324458c3fd5658cdb71d67f3[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Wed Jun 19 03:47:54 2024 +0530
+
+    'a' power of 'n' with in log(n) time
+
+[33mcommit 01be8ae02d6ee44dc9194775996b1b5e850b05fd[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Wed Jun 19 03:37:36 2024 +0530
+
+    'a' power of 'n'
+
+[33mcommit 4c7a05ea2061e496e764bf66d4833e46e8c35054[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Wed Jun 19 03:32:22 2024 +0530
+
+    Fibonacci Series
+
+[33mcommit d74257e1b23de7552a2122fe5cfb1be7046e4363[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Wed Jun 19 03:10:13 2024 +0530
+
+    Print Number From 1 To N
+
+[33mcommit 68c02ce625caf02a91e5696d6b5d5b0fb8b6964d[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Wed Jun 19 03:04:41 2024 +0530
+
+    factorial
+
+[33mcommit ea565de8667931222e14c188ff1e1b1f78c34106[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Wed Jun 19 02:53:21 2024 +0530
+
+    Print Number From 1 To N
+
+[33mcommit e6b8a37b4c6edc07a0f8d18179cc5e1931e3598f[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Thu Jun 13 11:27:20 2024 +0530
+
+    Range Of The Array
+
+[33mcommit 48b645a3f5617cf1a1b57b02267d79e5ed834738[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Thu Jun 13 02:28:46 2024 +0530
+
+    A Good Pairs
+
+[33mcommit e7b71383a912ebaf6ae16a3958ff27cf6a62d2f8[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Thu Jun 13 02:26:18 2024 +0530
+
+    Unique Number of Occurrences
+
+[33mcommit 0abf8e5fe372e1375cbe5ac9e9b5fb1149285791[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Tue Jun 11 11:46:11 2024 +0530
+
+    Count Pairs Whose Sum is Less than Target
+
+[33mcommit 5cd367e8dc2ac02a8b3f28a8bec2b4c43c49d6df[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Tue Jun 11 11:28:25 2024 +0530
+
+    Replace Elements with Greatest Element on Right Side
+
+[33mcommit e59e0ef8d1ed1b441233712e92edf93cd2c57e6d[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Tue Jun 11 10:52:10 2024 +0530
+
+    Non Decreasing Arrays
+
+[33mcommit 06e42e0e145b99e63b8afcb457b1a249804c4127[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Tue Jun 11 01:41:41 2024 +0530
+
+    Minimum Number Game
+
+[33mcommit d7af76fc2d0863c9d297d6ca02ef8a35fe33a8e8[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Tue Jun 11 01:27:27 2024 +0530
+
+    Count Elements With Maximum Frequency
+
+[33mcommit 3a2b56f6af04512a9f94adaf0c1d0d9df219a27a[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Tue Jun 11 01:02:26 2024 +0530
+
+    Count of Maximum
+
+[33mcommit 6af61130a96bca39d26071cb39cfa87f7ca65489[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Tue Jun 11 00:12:03 2024 +0530
+
+    The smallest and second smallest element in an array
+
+[33mcommit 5578a69d9712407bec9bf31afa6ffd39f4cea130[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Mon Jun 10 23:45:17 2024 +0530
+
+    Number of Good Pairs
+
+[33mcommit 6c36d4a1323b0a7527fe30bd71784deb33306f28[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Mon Jun 10 23:36:10 2024 +0530
+
+    number Of Employees Who Met Target
+
+[33mcommit 157abef14297c761a65e9e09632fea116ab7569e[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Mon Jun 10 23:28:24 2024 +0530
+
+    array Sorted Or Not
+
+[33mcommit 55ddbd46c2ee11396c1e1818fcbf70b1d8c625e0[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Mon Jun 10 23:11:19 2024 +0530
+
+    sum of Array
+
+[33mcommit 0fee3e2e47fcb6812468c143d281fb5a5fed1ac5[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 9 22:34:07 2024 +0530
+
+    Leetcode- 1480. Running Sum of 1d Array
+
+[33mcommit b8feb7520ee7fab03db2f7fa8ad17e80cb348711[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 9 12:38:41 2024 +0530
+
+    Pascals Triangle
+
+[33mcommit 7f752f0ecf30356060f8b4464e10806c7e6bdd95[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 9 12:25:55 2024 +0530
+
+    Fibonacci Series
+
+[33mcommit 8e5ea66305f2f5006acbf74e6717ebcaf1aa1559[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 9 11:33:22 2024 +0530
+
+    Array Display
+
+[33mcommit 402b2576d735e1993934ab3b98f2144c138dce0e[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 9 11:19:10 2024 +0530
+
+    Strong Number
+
+[33mcommit 121366b5ea94a4a7e042d561f0b751c13dfc2dca[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 9 11:02:01 2024 +0530
+
+    Perfect Number
+
+[33mcommit d7f78086aef09c4f8684e10303e548e7ca082078[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 9 10:52:18 2024 +0530
+
+    Armstrong Number
+
+[33mcommit 1c3cf7600f69358bbbe48c2622195ca46694c5b8[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 9 09:45:04 2024 +0530
+
+    LCM Using For Loop
+
+[33mcommit 20e0905ffb17529b477d6c34d1e63487e681a930[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 9 00:44:10 2024 +0530
+
+    Factorial
+
+[33mcommit 59ef0e68cb72f6ca5edaaf142593abde1e16db4b[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 9 00:41:02 2024 +0530
+
+    Factors Of The Number
+
+[33mcommit d7aa764ef7fa8783548f9e7981921863193323b7[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 9 00:35:44 2024 +0530
+
+    Power Of A Number
+
+[33mcommit 8cd1016b8f383d673c6ee340d5045205f4713dde[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 9 00:31:43 2024 +0530
+
+    Palindrome Number
+
+[33mcommit 2d634f8864875683aee4d685ebdf68af79c90cf6[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 9 00:28:28 2024 +0530
+
+    Print Its Reverse
+
+[33mcommit 4ceead2521a5b58f33c1c2db0e09712cd029e25b[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 9 00:21:54 2024 +0530
+
+    Sum Of Digits
+
+[33mcommit 67c2ff18bfd0c4fbadd822bd979f3d6a3710c14d[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 9 00:14:47 2024 +0530
+
+    Count Number Of Digits
+
+[33mcommit 47db2014512e2090567ee0ddbbad4b7a921b9a38[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 9 00:08:19 2024 +0530
+
+    Print Multiplication Table
+
+[33mcommit 1291a8989804a688e844feb2feec0c6af93858c0[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 9 00:04:26 2024 +0530
+
+    Sum Of All Odd Numbers
+
+[33mcommit 1917a52bdbc98d6a49964d0454dd1ab956b98212[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 9 00:01:05 2024 +0530
+
+    Even Numbers
+
+[33mcommit 0e40eb3f9435072798fea3961931867dd36a1004[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sat Jun 8 23:50:47 2024 +0530
+
+    Electricity Bill
+
+[33mcommit c30297f1f7b90375ea705ccd33f6b1df6679be3c[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sat Jun 8 23:33:17 2024 +0530
+
+    Triangle Is Equilateral, Scalene Or Isosceles Triangle
+
+[33mcommit 20126aac3c0da77c4d58c5727a2b481496490816[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sat Jun 8 23:24:13 2024 +0530
+
+    Minimum Number Of Notes
+
+[33mcommit 8bbcfc4583077161c6db6151b4afc38e60f25eb0[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sat Jun 8 22:13:19 2024 +0530
+
+    Check Whether Given Character Is Alphabet Digit Or Special Character
+
+[33mcommit 282bec359dc87efc36bbc00a77bea7f811159dd9[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sat Jun 8 21:55:41 2024 +0530
+
+    lacture 6
+
+[33mcommit 58702e8abc734a322f315a458a00408a410f05bd[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sat Jun 8 21:43:53 2024 +0530
+
+    switch Statement
+
+[33mcommit 65c3930579fdde6dc37b60890879239c19f37433[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sat Jun 8 21:17:12 2024 +0530
+
+    Triangular Number Patterns 3
+
+[33mcommit 74a399947c27c9c76f0bc40ecd9e8be0048c990f[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sat Jun 8 20:53:07 2024 +0530
+
+    Triangular Number Patterns 2
+
+[33mcommit c30c99f838da637cc91238d39c09c323956d9a31[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sat Jun 8 17:22:14 2024 +0530
+
+    Number Patterns 2
+
+[33mcommit 7873a87615e217ddd97dcce0ba43fd0d9a26cfdb[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sat Jun 8 15:59:55 2024 +0530
+
+    Number Patterns
+
+[33mcommit 058fb1bda69fdf7483716dadb6f3b924f4614830[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sat Jun 8 15:05:06 2024 +0530
+
+    Miscellaneous Star Pattern
+
+[33mcommit fa1b0b7ac73e855950a82c33f34147fc577ce383[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Thu Jun 6 22:58:22 2024 +0530
+
+    Merge Sorted Array
+
+[33mcommit 25194a03d473315c2dd8928e72f228b0bff8495c[m
+Merge: eaa9815 66a70d3
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Wed Jun 5 01:02:39 2024 +0530
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit eaa9815dd7df3791192eac33604fa6ccb2adfb6f[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Wed Jun 5 01:01:10 2024 +0530
+
+    Swap Two Arrays
+
+[33mcommit dce2c63eeaaef985328e7184131e408922eb73ff[m
+Merge: ebae346 5e1d66d
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Tue Jun 4 16:26:33 2024 +0530
+
+    Pyramid Star Pattern
+
+[33mcommit 66a70d33811a6dbec6dcc9ca4b0ba4dddf64fdfd[m
+Merge: ebae346 5e1d66d
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Tue Jun 4 16:26:33 2024 +0530
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit ebae3469c63bc75842f8cd5bb12d18c2c6f573fc[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Tue Jun 4 15:14:54 2024 +0530
+
+    Triangle Star Pattern
+
+[33mcommit 5e1d66d40f73ff87c8d48541d1bff5d04e849cd9[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Tue Jun 4 15:14:54 2024 +0530
+
+    Triangle Star Pattern
+
+[33mcommit 84d56eb808b32918c100f74208f8f741d3e7e774[m
+Merge: a2b84e6 7d3c759
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Tue Jun 4 00:25:46 2024 +0530
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit a2b84e682cb3dab4a8479f890cb72d41496a77b0[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Mon Jun 3 16:01:46 2024 +0530
+
+    Pattern 1
+
+[33mcommit 7d3c759a69c24d30edcb2158ce258007eab47331[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Mon Jun 3 16:01:46 2024 +0530
+
+    Prime Number
+
+[33mcommit 9b379af7b881eb6dbfc4b6678e8ee9ddc95459c3[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Mon Jun 3 13:05:54 2024 +0530
+
+    Does It Divide?
+
+[33mcommit c5a3fd7fb933e35232e46ac16c20c35f7fc1888b[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Mon Jun 3 11:49:07 2024 +0530
+
+    GCD vs LCM
+
+[33mcommit a980dc31a2edfe4459b8c164ba6e7212ab05ef0c[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Mon Jun 3 06:03:01 2024 +0530
+
+    GCD of Two Numbers
+
+[33mcommit 27a9e9c4c1cc513d024445aff1f04dba67341da4[m
+Merge: 52815dc 39f79bf
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Mon Jun 3 05:09:26 2024 +0530
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit 52815dc5888a45e40cefd27924c9e8887b2e5f2a[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Mon Jun 3 04:47:26 2024 +0530
+
+    armstrong Number
+
+[33mcommit 39f79bfc4809a0a54b3be96838058fac07376d8a[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Mon Jun 3 04:47:26 2024 +0530
+
+    Sum Multiples
+
+[33mcommit 12c034d9561407661611a03edd7247b3c82a60d5[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Mon Jun 3 04:34:15 2024 +0530
+
+    Odd One Out
+
+[33mcommit b0912e766110888d38c8cf6a6e46651019c7a7dd[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Mon Jun 3 04:16:23 2024 +0530
+
+    Odd One Out
+
+[33mcommit 2b28a71902a3dc9c03ccf6ec5418ba91c02d2ac0[m
+Author: Rajat Mourya <rm24042000@gmail.com>
+Date:   Sun Jun 2 20:32:32 2024 +0530
+
+    Basic Java

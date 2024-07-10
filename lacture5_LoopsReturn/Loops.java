@@ -6,9 +6,11 @@ class Loops {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         PrintReverseNumber printReverseNumber = new PrintReverseNumber();
+        Questions1 qus = new Questions1();
         System.out.println("Enter the Number:");
         int num = sc.nextInt();
-        System.out.println(printReverseNumber.reverse(num));
+//        System.out.println(printReverseNumber.reverse(num));
+        System.out.println(qus.palindromeOrNot(num));
     }
 }
 
@@ -22,4 +24,25 @@ class PrintReverseNumber{
         }
         return rev;
     }
+}
+
+class Questions1 {
+    public boolean palindromeOrNot(int num){
+        String s= String.valueOf(num);
+        int f = 0;
+        int r = s.length()-1;
+        boolean ans = true;
+        for (int i = 0; i < s.length()/2; i++) {
+            if(s.charAt(f) == s.charAt(r)){
+                f++;
+                r--;
+            }else{
+                return false;
+            }
+        }
+
+        System.out.println(s);
+        return ans;
+    }
+
 }
