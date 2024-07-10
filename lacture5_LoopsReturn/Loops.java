@@ -25,8 +25,13 @@ class Loops {
 
         Questions2 qus2 = new Questions2();
 //        System.out.println(qus2.armstrongNumber(num));
-        System.out.println(qus2.perfectNumbers(num));
-
+//        System.out.println(qus2.perfectNumbers(num));
+        int[] strongNumbers = qus2.strongNumbers(num);
+        for(int e: strongNumbers){
+            if(e != 0){
+                System.out.print(e + " ");
+            }
+        }
     }
 }
 
@@ -111,6 +116,8 @@ class Questions1 {
 
 class Questions2 {
 
+    Questions1 qus = new Questions1();
+
     public boolean armstrongNumber(int num){
         int len = Integer.toString(num).length();
         int n = num;
@@ -132,6 +139,27 @@ class Questions2 {
             i += 1;
         }
         return ans == num ? true : false;
+    }
+
+    public int[] strongNumbers(int num) {
+        int[] ans = new int[100];
+        ans[0] = 1;
+        ans[1] = 2;
+        int j = 2;
+        for (int i = 3; i <= num; i++) {
+            int len = Integer.toString(i).length();
+            int tempAns = 0;
+            int temp = i;
+            while (temp > 0){
+                tempAns += qus.factorial(temp % 10);
+                temp /= 10;
+            }
+            if (tempAns == i){
+                ans[j] = i;
+                j += 1;
+            }
+        }
+        return ans;
     }
 
 
